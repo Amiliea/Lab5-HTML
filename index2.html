@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТурАгентство Traveling: Туры по миру</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="header">
+        <img src="images/R.jpg" alt="Логотип турфирмы" class="logo">
+        <h1>ТурАгентство Traveling</h1>
+        <p>Откройте мир с нами: незабываемые туры и приключения</p>
+    </header>
+
+    <nav class="nav"> 
+        <ul>
+            <li><a href="#hero">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+    <section class="accordion-section">
+        <h2>Часто задаваемые вопросы</h2>
+        
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">Нужна ли виза для поездки в Европу?</button>
+                <div class="accordion-content">
+                    <p>Для большинства стран Шенгенской зоны гражданам РФ нужна виза. Мы помогаем оформить шенгенскую визу «под ключ» за 7–14 дней.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">Можно ли поехать с детьми?</button>
+                <div class="accordion-content">
+                    <p>Конечно! У нас есть специальные семейные туры, детские клубы в отелях и скидки до 50% на детей до 12 лет.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">Что входит в стоимость тура?</button>
+                <div class="accordion-content">
+                    <p>Авиабилеты, трансфер, проживание, медицинская страховка и услуги русскоязычного гида. Питание — в зависимости от выбранного типа (BB, HB, All Inclusive).</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header">Можно ли вернуть деньги, если планы изменились?</button>
+                <div class="accordion-content">
+                    <p>Да, до 30 дней до вылета — полный возврат, от 30 до 14 дней — 50%, менее 14 дней — по условиям отеля и авиакомпании.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <h2>Наши путешествия</h2>
+        
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="nature">Природа</button>
+            <button class="filter-btn" data-filter="city">Город</button>
+            <button class="filter-btn" data-filter="beach">Пляж</button>
+        </div>
+
+        <div class="gallery">
+            <img src="images/boat-7767575_1280.jpg"    alt="Океан и горы"      data-category="nature beach">
+            <img src="images/bangkok-5078760_1280.jpg" alt="Бангкок"           data-category="city">
+            <img src="images/job-5382501_1280.jpg"     alt="Команда"           data-category="city">
+            <img src="images/tourists-at-taj-mahal-4800656_1280.jpg" alt="Тадж-Махал" data-category="city">
+            <img src="https://images.pexels.com/photos/3581365/pexels-photo-3581365.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Горы" data-category="nature">
+            <img src="https://images.pexels.com/photos/1461974/pexels-photo-1461974.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Пляж Бора-Бора" data-category="beach">
+        </div>
+    </section>
+
+</main>
+
+<div id="modal" class="modal">
+    <span class="modal-close">×</span>
+    <img class="modal-content" id="modalImage" src="" alt="Увеличенное фото">
+</div>
+
+    <footer class="footer">
+        <p>&copy; 2025 ТурАгентство Traveling. Все права защищены. | Email: tours@travel.ru | Тел: +7 (495) 987-65-43 | Адрес: Москва, ул. Туристическая, 1</p>
+    </footer>
+    <button id="scrollToTop" title="Наверх"></button>
+    <script src="script.js"></script>
+</body>
+</html>
