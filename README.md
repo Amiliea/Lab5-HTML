@@ -1,9 +1,10 @@
 *Лабораторная работа №5*
-<img width="1895" height="921" alt="Снимок экрана 2025-11-20 100835" src="https://github.com/user-attachments/assets/4fcfb50c-d1c2-4bff-8a95-5ec8ae6c03b8" />
-
-<img width="1901" height="919" alt="Снимок экрана 2025-11-20 100824" src="https://github.com/user-attachments/assets/7713e080-cfff-46d3-85b9-2543e2bac8cc" />
 
 <img width="1897" height="922" alt="Снимок экрана 2025-11-20 100812" src="https://github.com/user-attachments/assets/b9109b7d-cfff-4059-b73f-a2c21131f2c6" />
+
+<img width="1898" height="872" alt="Снимок экрана 2025-11-20 101841" src="https://github.com/user-attachments/assets/dfe74df2-8373-4ac4-94b7-475cc40fac58" />
+
+<img width="1902" height="871" alt="Снимок экрана 2025-11-20 101824" src="https://github.com/user-attachments/assets/2ff20327-5fa2-4c39-871d-08d33c262a50" />
 
 **Какие интерактивности добавлены на страницу?**
 
